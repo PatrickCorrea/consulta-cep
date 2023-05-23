@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(https://republicanos10.org.br/wp-content/uploads/2022/02/Descomplicando-a-Politica-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    align-items: center;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 16px 16px;
+    background-color: #FFB042;
+    border-radius: 8px;
+    border: 2px solid #0a0a0a;
+    box-shadow: 1px 1px 2px 0px #0a0a0a;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #005BAA;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0275da;
+    transition: 0.2s;
+}
+
+#resultado {
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 100%;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+
+#resultado p {
+    text-align: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
